@@ -1,1 +1,13 @@
-<Solution />
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="FunEvents.Application/FunEvents.Application.csproj" Id="ba14e9b7-501a-402a-a766-8a407823e82f" />
+    <Project Path="FunEvents.Domain/FunEvents.Domain.csproj" Id="894eba28-1fa0-41c2-b56f-2837b67dadf8" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="FunEvents.Infrastructure/FunEvents.Infrastructure.csproj" Id="24aa774e-9937-4837-8a83-40ebbf54d6c2" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="FunEvents.API/FunEvents.API.csproj" Id="20fde366-7e84-456c-b4d3-72471ef486a1" />
+    <Project Path="FunEvents.ConsoleApp/FunEvents.ConsoleApp.csproj" Id="9d08a48f-6eb6-4185-860b-5409454b8ad7" />
+  </Folder>
+</Solution>
