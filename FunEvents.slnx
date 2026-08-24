@@ -6,6 +6,10 @@
   <Folder Name="/Infrastructure/">
     <Project Path="FunEvents.Infrastructure/FunEvents.Infrastructure.csproj" Id="24aa774e-9937-4837-8a83-40ebbf54d6c2" />
   </Folder>
+  <Folder Name="/Orchestation/">
+    <Project Path="FunEvents.AppHost/FunEvents.AppHost.csproj" Id="8e86c61b-9770-418b-abfa-52c21ee85bd2" />
+    <Project Path="FunEvents.ServiceDefaults/FunEvents.ServiceDefaults.csproj" Id="e5582758-6006-4d76-b531-9dd252409b5f" />
+  </Folder>
   <Folder Name="/Presentation/">
     <Project Path="FunEvents.API/FunEvents.API.csproj" Id="20fde366-7e84-456c-b4d3-72471ef486a1" />
     <Project Path="FunEvents.ConsoleApp/FunEvents.ConsoleApp.csproj" Id="9d08a48f-6eb6-4185-860b-5409454b8ad7" />

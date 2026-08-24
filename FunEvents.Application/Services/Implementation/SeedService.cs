@@ -1,12 +1,14 @@
 ﻿using FunEvents.Application.Interfaces;
+using FunEvents.Application.Services.Interfaces;
 using FunEvents.Domain.Entities;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace FunEvents.Application.Services.Implementation
 {
-    public class SeedService
+    public class SeedService: ISeedService
     {
         private readonly IUnitOfWork _unitOfWork;
 
@@ -18,8 +20,6 @@ namespace FunEvents.Application.Services.Implementation
         public async Task<string> SembrarDatosPruebaAsync(CancellationToken cancellationToken = default)
         {
             var eventoId = Guid.Parse("11111111-1111-1111-1111-111111111111");
-
-            // Usamos el repositorio expuesto directamente por la UnitOfWork
             var eventoExistente = await _unitOfWork.Eventos.GetByIdAsync(eventoId, cancellationToken);
 
             if (eventoExistente is null)
