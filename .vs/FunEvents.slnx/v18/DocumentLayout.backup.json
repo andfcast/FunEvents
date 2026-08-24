@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{9D08A48F-6EB6-4185-860B-5409454B8AD7}|FunEvents.ConsoleApp\\FunEvents.ConsoleApp.csproj|solutionrelative:funevents.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24AA774E-9937-4837-8A83-40EBBF54D6C2}|FunEvents.Infrastructure\\FunEvents.Infrastructure.csproj|c:\\git\\funevents\\funevents.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24AA774E-9937-4837-8A83-40EBBF54D6C2}|FunEvents.Infrastructure\\FunEvents.Infrastructure.csproj|solutionrelative:funevents.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA14E9B7-501A-402A-A766-8A407823E82F}|FunEvents.Application\\FunEvents.Application.csproj|c:\\git\\funevents\\funevents.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA14E9B7-501A-402A-A766-8A407823E82F}|FunEvents.Application\\FunEvents.Application.csproj|solutionrelative:funevents.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{894EBA28-1FA0-41C2-B56F-2837B67DADF8}|FunEvents.Domain\\FunEvents.Domain.csproj|c:\\git\\funevents\\funevents.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{894EBA28-1FA0-41C2-B56F-2837B67DADF8}|FunEvents.Domain\\FunEvents.Domain.csproj|solutionrelative:funevents.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20FDE366-7E84-456C-B4D3-72471EF486A1}|FunEvents.API\\FunEvents.API.csproj|c:\\git\\funevents\\funevents.api\\endpoints\\reservaendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20FDE366-7E84-456C-B4D3-72471EF486A1}|FunEvents.API\\FunEvents.API.csproj|solutionrelative:funevents.api\\endpoints\\reservaendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservaEndpoints.cs",
+              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.API\\Endpoints\\ReservaEndpoints.cs",
+              "RelativeDocumentMoniker": "FunEvents.API\\Endpoints\\ReservaEndpoints.cs",
+              "ToolTip": "C:\\git\\FunEvents\\FunEvents.API\\Endpoints\\ReservaEndpoints.cs",
+              "RelativeToolTip": "FunEvents.API\\Endpoints\\ReservaEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T13:29:34.039Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,48 +41,9 @@
               "RelativeDocumentMoniker": "FunEvents.ConsoleApp\\Program.cs",
               "ToolTip": "C:\\git\\FunEvents\\FunEvents.ConsoleApp\\Program.cs",
               "RelativeToolTip": "FunEvents.ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBYAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-23T18:03:50.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "FunEvents.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\git\\FunEvents\\FunEvents.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "FunEvents.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-23T18:02:26.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "FunEvents.Application\\Class1.cs",
-              "ToolTip": "C:\\git\\FunEvents\\FunEvents.Application\\Class1.cs",
-              "RelativeToolTip": "FunEvents.Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-23T18:02:01.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "FunEvents.Domain\\Class1.cs",
-              "ToolTip": "C:\\git\\FunEvents\\FunEvents.Domain\\Class1.cs",
-              "RelativeToolTip": "FunEvents.Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-23T18:01:26.277Z",
+              "WhenOpened": "2026-08-24T12:48:48.786Z",
               "EditorCaption": ""
             }
           ]
