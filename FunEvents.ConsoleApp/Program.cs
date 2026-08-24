@@ -1,32 +1,53 @@
 ﻿using FunEvents.Application.DTO;
+using Microsoft.Extensions.Hosting;
 using System.Net.Http.Json;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 namespace FunEvents.ConsoleApp
 {
     internal class Program
     {
-        private static readonly HttpClient httpClient = new()
-        {
-            BaseAddress = new Uri("https://localhost:44367") // Ajusta el puerto de tu API
-        };
-
         static async Task Main(string[] args)
         {
-            Console.WriteLine("==================================================");
-            Console.WriteLine("    FunEvents - Cliente de Pruebas de Concurrencia");
-            Console.WriteLine("==================================================\n");
+            // 1. Configurar Host con Service Discovery y Telemetría de Aspire
+            var builder = Host.CreateApplicationBuilder(args);
 
-            // 1. Ejecutar el Seed para asegurar que el evento exista
-            await EjecutarSeedAsync();
+            builder.AddServiceDefaults();
 
-            // 2. Ejecutar la prueba de reservas concurrentes
-            await SimularReservasConcurrentesAsync(totalPeticiones: 10);
+            // 2. Registrar HttpClient apuntando al nombre del servicio en AppHost ("apiservice")
+            builder.Services.AddHttpClient<ReservaApiClient>(client =>
+            {
+                client.BaseAddress = new Uri("http://apiservice");
+            });
+
+            using var host = builder.Build();
+
+            // 3. Obtener el servicio y ejecutar las pruebas
+            var apiClient = host.Services.GetRequiredService<ReservaApiClient>();
+            await apiClient.EjecutarPruebaCompletaAsync();
 
             Console.WriteLine("\nPresiona cualquier tecla para salir...");
             Console.ReadKey();
         }
+    }
 
-        private static async Task EjecutarSeedAsync()
+    public class ReservaApiClient(HttpClient httpClient)
+    {
+        public async Task EjecutarPruebaCompletaAsync()
+        {
+            Console.WriteLine("==================================================");
+            Console.WriteLine("    FunEvents - Cliente de Pruebas (Aspire)");
+            Console.WriteLine("==================================================\n");
+
+            // 1. Ejecutar el Seed
+            await EjecutarSeedAsync();
+
+            // 2. Ejecutar la prueba de reservas concurrentes
+            await SimularReservasConcurrentesAsync(totalPeticiones: 1);
+        }
+
+        private async Task EjecutarSeedAsync()
         {
             Console.WriteLine("--> Inicializando datos de prueba en la API (/api/eventos/seed)...");
 
@@ -50,7 +71,7 @@ namespace FunEvents.ConsoleApp
             }
         }
 
-        private static async Task SimularReservasConcurrentesAsync(int totalPeticiones)
+        private async Task SimularReservasConcurrentesAsync(int totalPeticiones)
         {
             var eventoId = Guid.Parse("11111111-1111-1111-1111-111111111111");
             Console.WriteLine($"--> Lanzando {totalPeticiones} solicitudes de reserva concurrentes al evento {eventoId}...\n");
@@ -63,11 +84,10 @@ namespace FunEvents.ConsoleApp
                 tareas.Add(Task.Run(() => RealizarReservaAsync(eventoId, clienteNumero)));
             }
 
-            // Esperar a que todas las peticiones terminen simultáneamente
             await Task.WhenAll(tareas);
         }
 
-        private static async Task RealizarReservaAsync(Guid eventoId, int clienteNumero)
+        private async Task RealizarReservaAsync(Guid eventoId, int clienteNumero)
         {
             var request = new
             {

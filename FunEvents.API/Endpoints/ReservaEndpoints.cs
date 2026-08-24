@@ -1,5 +1,6 @@
 ﻿using FunEvents.Application.DTO;
 using FunEvents.Application.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FunEvents.API.Endpoints
 {

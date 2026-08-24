@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\git\\FunEvents\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D08A48F-6EB6-4185-860B-5409454B8AD7}|FunEvents.ConsoleApp\\FunEvents.ConsoleApp.csproj|c:\\git\\funevents\\funevents.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D08A48F-6EB6-4185-860B-5409454B8AD7}|FunEvents.ConsoleApp\\FunEvents.ConsoleApp.csproj|solutionrelative:funevents.consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E86C61B-9770-418B-ABFA-52C21EE85BD2}|FunEvents.AppHost\\FunEvents.AppHost.csproj|c:\\git\\funevents\\funevents.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E86C61B-9770-418B-ABFA-52C21EE85BD2}|FunEvents.AppHost\\FunEvents.AppHost.csproj|solutionrelative:funevents.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20FDE366-7E84-456C-B4D3-72471EF486A1}|FunEvents.API\\FunEvents.API.csproj|c:\\git\\funevents\\funevents.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20FDE366-7E84-456C-B4D3-72471EF486A1}|FunEvents.API\\FunEvents.API.csproj|solutionrelative:funevents.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20FDE366-7E84-456C-B4D3-72471EF486A1}|FunEvents.API\\FunEvents.API.csproj|c:\\git\\funevents\\funevents.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20FDE366-7E84-456C-B4D3-72471EF486A1}|FunEvents.API\\FunEvents.API.csproj|solutionrelative:funevents.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20FDE366-7E84-456C-B4D3-72471EF486A1}|FunEvents.API\\FunEvents.API.csproj|c:\\git\\funevents\\funevents.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20FDE366-7E84-456C-B4D3-72471EF486A1}|FunEvents.API\\FunEvents.API.csproj|solutionrelative:funevents.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20FDE366-7E84-456C-B4D3-72471EF486A1}|FunEvents.API\\FunEvents.API.csproj|c:\\git\\funevents\\funevents.api\\endpoints\\reservaendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20FDE366-7E84-456C-B4D3-72471EF486A1}|FunEvents.API\\FunEvents.API.csproj|solutionrelative:funevents.api\\endpoints\\reservaendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA14E9B7-501A-402A-A766-8A407823E82F}|FunEvents.Application\\FunEvents.Application.csproj|c:\\git\\funevents\\funevents.application\\services\\interfaces\\iseedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA14E9B7-501A-402A-A766-8A407823E82F}|FunEvents.Application\\FunEvents.Application.csproj|solutionrelative:funevents.application\\services\\interfaces\\iseedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA14E9B7-501A-402A-A766-8A407823E82F}|FunEvents.Application\\FunEvents.Application.csproj|c:\\git\\funevents\\funevents.application\\services\\implementation\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA14E9B7-501A-402A-A766-8A407823E82F}|FunEvents.Application\\FunEvents.Application.csproj|solutionrelative:funevents.application\\services\\implementation\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppHost.cs",
+              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.AppHost\\AppHost.cs",
+              "RelativeDocumentMoniker": "FunEvents.AppHost\\AppHost.cs",
+              "ToolTip": "C:\\git\\FunEvents\\FunEvents.AppHost\\AppHost.cs",
+              "RelativeToolTip": "FunEvents.AppHost\\AppHost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:32:55.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FunEvents.API\\appsettings.Development.json",
+              "ToolTip": "C:\\git\\FunEvents\\FunEvents.API\\appsettings.Development.json",
+              "RelativeToolTip": "FunEvents.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-24T14:32:28.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FunEvents.API\\appsettings.json",
+              "ToolTip": "C:\\git\\FunEvents\\FunEvents.API\\appsettings.json",
+              "RelativeToolTip": "FunEvents.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-24T14:32:26.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISeedService.cs",
+              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.Application\\Services\\Interfaces\\ISeedService.cs",
+              "RelativeDocumentMoniker": "FunEvents.Application\\Services\\Interfaces\\ISeedService.cs",
+              "ToolTip": "C:\\git\\FunEvents\\FunEvents.Application\\Services\\Interfaces\\ISeedService.cs",
+              "RelativeToolTip": "FunEvents.Application\\Services\\Interfaces\\ISeedService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:25:42.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SeedService.cs",
+              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.Application\\Services\\Implementation\\SeedService.cs",
+              "RelativeDocumentMoniker": "FunEvents.Application\\Services\\Implementation\\SeedService.cs",
+              "ToolTip": "C:\\git\\FunEvents\\FunEvents.Application\\Services\\Implementation\\SeedService.cs",
+              "RelativeToolTip": "FunEvents.Application\\Services\\Implementation\\SeedService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:25:32.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.API\\Program.cs",
+              "RelativeDocumentMoniker": "FunEvents.API\\Program.cs",
+              "ToolTip": "C:\\git\\FunEvents\\FunEvents.API\\Program.cs",
+              "RelativeToolTip": "FunEvents.API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:24:56.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ReservaEndpoints.cs",
               "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.API\\Endpoints\\ReservaEndpoints.cs",
               "RelativeDocumentMoniker": "FunEvents.API\\Endpoints\\ReservaEndpoints.cs",
               "ToolTip": "C:\\git\\FunEvents\\FunEvents.API\\Endpoints\\ReservaEndpoints.cs",
               "RelativeToolTip": "FunEvents.API\\Endpoints\\ReservaEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T13:29:34.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\git\\FunEvents\\FunEvents.ConsoleApp\\Program.cs",
-              "RelativeDocumentMoniker": "FunEvents.ConsoleApp\\Program.cs",
-              "ToolTip": "C:\\git\\FunEvents\\FunEvents.ConsoleApp\\Program.cs",
-              "RelativeToolTip": "FunEvents.ConsoleApp\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAA5wEsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-24T12:48:48.786Z",
+              "WhenOpened": "2026-08-24T14:14:31.346Z",
               "EditorCaption": ""
             }
           ]
